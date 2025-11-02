@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+
+    
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      src="./assets/images/pattern-squiggly-line-top.svg"
+      alt="line-top"
+      id="line-top"
+    />
+    <img
+      src="./assets/images/pattern-squiggly-line-bottom-mobile-tablet.svg"
+      alt="line-bottom"
+      id="line-bottom"
+    />
+    <div id="main-container">
+      <img src="./assets/images/logo-full.svg" alt="" height="30rem" id="logo-img">
+      <div id="texts">
+        <h1>Your Journey to Coding Conf <br />2025 Starts Here!</h1>
+        <p>Secure your spot at next year's biggest coding conference.</p>
+      </div>
+      <!-- Form starts -->
+      
+        <form action="">
+          <div id="form">
+          <div id="upload-section">
+            <div><label for="imageUpload">upload avatar</label></div>
+            
+            <div class="upload-box">
+              <input
+                type="file"
+                id="imageUpload"
+                name="image"
+                accept="image/*"
+                hidden
+              />
+              <img src="" alt="preview" id="preview" hidden />
+
+
+              <div class="upload-content">
+                <span class="upload-icon">
+                  <img src="./assets/images/icon-upload.svg" alt="" />
+                </span>
+                <p>Drag and drop or click to upload</p>
+              </div>
+
+            </div>
+
+            <div id="info">
+              <img src="./assets/images/icon-info.svg" alt="" height="10rem" />
+              <p id="info-text">
+                Upload your photo (JPG orPNG, max size: 500KB).
+              </p>
+            </div>
+          </div>
+
+          <section id="fullname-input">
+            <div id="fullname">
+              <label for="">Full Name</label>
+              <input type="text" id="full-name">
+            </div>
+          </section>
+
+          <section id="email-input">
+            <div id="email">
+              <label for="">Email Address</label>
+              <input type="text" id="email-input-field" placeholder="example@email.com">
+            </div>
+          </section>
+
+          <section id="github-input">
+            <div id="github">
+              <label for="">GitHub Username </label>
+              <input type="text" id="github-input-field" placeholder="@yourusername">
+            </div>
+          </section>
+
+          <div id="gen-button">
+              <button id="button"> Generate My Ticket</button>
+          </div>
+          </div>
+        </form>
+      
+    </div>
+
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="#">michael siffre</a>.
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>

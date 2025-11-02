@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ticket</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <img
+      src="./assets/images/pattern-squiggly-line-top.svg"
+      alt="line-top"
+      id="line-top"
+    />
+    <img
+      src="./assets/images/pattern-squiggly-line-bottom-mobile-tablet.svg"
+      alt="line-bottom"
+      id="line-bottom"
+    />
+    <div id="main-container">
+      <img src="./assets/images/logo-full.svg" alt="" height=30rem>
+      <div id="texts">
+        <h1>
+          Congrats, <span id="display-name">Michael Siffre!</span> <br />Your
+          ticket is ready.
+        </h1>
+        <p>
+          We've emailed your ticket to <br />
+          <span id="display-email">michaelsiffre@gmail.com</span> and we'll send
+          updates in <br />
+          the run up to the event.
+        </p>
+      </div>
+    </div>
+
+    <div id="ticket-card">
+      <div id="ticket-info">
+        <div id="top-info">
+          <div id="logo-full">
+            <img src="./assets/images/logo-mark.svg" alt="" class="logo-mark" />
+          </div>
+
+          <div class="conf">
+            <div class="conf-name"><h4>Coding Conf</h4></div>
+            <div class="conf-date"><h3>Jan, 31 2025 / Austin, TX</h3></div>
+            
+          </div>
+        </div>
+
+        <div id="bottom-info">
+          <div id="profile-pic">
+            <img src="./assets/images/image-avatar.jpg" alt="" height="70px" id="display-avatar" />
+          </div>
+
+          <div id="profile-info"> 
+          <div id="profile-name"><h4 id="bottom-name">Michael Siffre</h4></div>
+          <div id="git-username"><img src="./assets/images/icon-github.svg" alt=""><h3 id="display-github">@michaelsiffre2002</h3></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="ticket-serial">#01609</div>
+    </div>
+    <script src="ticket.js"></script>
+  </body>
+</html>
